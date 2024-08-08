@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Static/index.css">
+
+</head>
+<body>
+    <div class="formContainer">
+    <h1>Gender Classification</h1>
+    <form action="/handle_data" method="POST">
+        <label for="long_hair">Long Hair:</label>
+        <input type="number" id="long_hair" name="long_hair"><br><br>
+
+        <label for="forehead_width_cm">Forehead Width (cm):</label>
+        <input type="number" step="0.1" id="forehead_width_cm" name="forehead_width_cm"><br><br>
+
+        <label for="forehead_height_cm">Forehead Height (cm):</label>
+        <input type="number" step="0.1" id="forehead_height_cm" name="forehead_height_cm"><br><br>
+
+        <label for="nose_wide">Nose Wide:</label>
+        <input type="number" id="nose_wide" name="nose_wide"><br><br>
+
+        <label for="nose_long">Nose Long:</label>
+        <input type="number" id="nose_long" name="nose_long"><br><br>
+
+        <label for="lips_thin">Lips Thin:</label>
+        <input type="number" id="lips_thin" name="lips_thin"><br><br>
+
+        <label for="distance_nose_to_lip_long">Distance Nose to Lip Long:</label>
+        <input type="number" id="distance_nose_to_lip_long" name="distance_nose_to_lip_long"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+    </div>
+</body>
+</html>
